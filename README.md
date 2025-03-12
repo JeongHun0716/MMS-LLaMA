@@ -8,7 +8,7 @@ This repository contains the PyTorch implementation of the following paper:
 
 ## Introduction
 MMS-LLaMA is an efficient multimodal speech LLM framework, for AVSR that minimizes the length of multimodal speech tokens while preserving their linguistic content.
-<div align="center"><img width="100%" src="image/image.png?raw=true" /></div>
+
 
 
 
