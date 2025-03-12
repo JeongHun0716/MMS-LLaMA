@@ -124,8 +124,8 @@ After downloading, make sure to place the models in the correct directories:
 
 | Model         | Used Datasets  | Training data (# hours)   | WER(\%), Clean  | WER(\%), Noisy | 
 |--------------|:----------:|:------------------:|:------------------:|:------------------:|
-| [ckpt.pt](https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=0) |       LRS3       |       433       |       0.92       |      2.8       |
-| [ckpt.pt](https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint_best.pt?rlkey=a4q1qgigodhrgwqi9lgsalj7f&st=ga8z79vc&dl=0) |       LRS3, VoxCeleb2       |       1759       |       0.74       | 1.9   |
+| [ckpt.pt](https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=1) |       LRS3       |       433       |       0.92       |      2.8       |
+| [ckpt.pt](https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint_best.pt?rlkey=a4q1qgigodhrgwqi9lgsalj7f&st=ga8z79vc&dl=1) |       LRS3, VoxCeleb2       |       1759       |       0.74       | 1.9   |
 
 You can download the pre-trained models using wget with the following command:
 
@@ -145,7 +145,7 @@ wget -O ckpt.pt "https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint
 
 | Model         | Used Datasets  | Training data (# hours)   |
 |--------------|:----------:|:------------------:|
-| [ckpt.pt](https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=0) |       LRS3       |       433       |
+| [ckpt.pt](https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=1) |       LRS3       |       433       |
 
 ```bash
 # 1759h model
