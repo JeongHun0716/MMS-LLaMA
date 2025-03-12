@@ -292,7 +292,7 @@ class MMS_LLaMA(BaseFairseqModel):
         if self.cfg.use_sr_predictor:
             len_queries, resized_len_list = self.query_length_calculation(whisper_enc_out, video_lengths, max_vid_len)
         else:
-            len_queries = [max(int(vid_len / 25 * self.cfg.queries_per_sec), 1) for vid_len in video_lengths]
+            len_queries = [max(int(vid_len / 25 * self.cfg.queries_per_sec), self.cfg.queries_per_sec) for vid_len in video_lengths]
 
         # ============================
         # 3. Feature processing and modality fusion
