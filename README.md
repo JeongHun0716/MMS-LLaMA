@@ -8,7 +8,7 @@ This repository contains the PyTorch implementation of the following paper:
 
 ## Introduction
 MMS-LLaMA is an efficient multimodal speech LLM framework, for AVSR that minimizes the length of multimodal speech tokens while preserving their linguistic content.
-
+<div align="center"><img width="100%" src="image/image.png?raw=true" /></div>
 
 
 
@@ -91,6 +91,9 @@ lrs3/
 bash scripts/train.sh
 ```
 
+**Note**: For training on an 8 GPU RTX 3090 setup, the `433h model` can be trained in approximately `6 hours`, while the `1759h model` requires about `20 hours`.
+
+
 ### Evaluation of the MMS-LLaMA
 To evaluate the performance of MMS-LLaMA, execute the evaluation script by running:
 
@@ -124,11 +127,32 @@ After downloading, make sure to place the models in the correct directories:
 | [ckpt.pt](https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=0) |       LRS3       |       433       |       0.92       |      2.8       |
 | [ckpt.pt](https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint_best.pt?rlkey=a4q1qgigodhrgwqi9lgsalj7f&st=ga8z79vc&dl=0) |       LRS3, VoxCeleb2       |       1759       |       0.74       | 1.9   |
 
+You can download the pre-trained models using wget with the following command:
+
+```bash
+# 433h model
+wget -O ckpt.pt "https://https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=1"
+```
+
+```bash
+# 1759h model
+wget -O ckpt.pt "https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint_best.pt?rlkey=a4q1qgigodhrgwqi9lgsalj7f&st=ga8z79vc&dl=1"
+```
+
+
+
 > ```Speech Rate Predictor```
 
 | Model         | Used Datasets  | Training data (# hours)   |
 |--------------|:----------:|:------------------:|
 | [ckpt.pt](https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=0) |       LRS3       |       433       |
 
+```bash
+# 1759h model
+wget -O ckpt.pt "https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=1"
+```
 
+
+## Acknowledgement
+This project is based on the [avhubert](https://github.com/facebookresearch/av_hubert), [espnet](https://github.com/espnet/espnet), [auto-avsr](https://github.com/mpc001/auto_avsr), and [fairseq](https://github.com/facebookresearch/fairseq) code. We would like to thank the developers of these projects for their contributions and the open-source community for making this work possible.
 
