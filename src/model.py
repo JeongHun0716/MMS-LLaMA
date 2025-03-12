@@ -535,7 +535,7 @@ class MMS_LLaMA(BaseFairseqModel):
             elif factor > 2:
                 factor = 2
             adjusted_queries = int(base_queries * factor)
-            query_count = max(adjusted_queries, self.cfg.query_for second)
+            query_count = max(adjusted_queries, self.cfg.queries_per_sec)
             len_queries.append(query_count)
             resized_len_list.append(factor*vid_len) # resized av feat
 
