@@ -154,5 +154,5 @@ wget -O ckpt.pt "https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint
 
 
 ## Acknowledgement
-This project is based on the [avhubert](https://github.com/facebookresearch/av_hubert), [espnet](https://github.com/espnet/espnet), [auto-avsr](https://github.com/mpc001/auto_avsr), and [fairseq](https://github.com/facebookresearch/fairseq) code. We would like to thank the developers of these projects for their contributions and the open-source community for making this work possible.
+This project is based on the [avhubert](https://github.com/facebookresearch/av_hubert), [auto-avsr](https://github.com/mpc001/auto_avsr), and [fairseq](https://github.com/facebookresearch/fairseq) code. We would like to thank the developers of these projects for their contributions and the open-source community for making this work possible.
 
