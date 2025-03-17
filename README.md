@@ -4,7 +4,7 @@ This repository contains the PyTorch implementation of the following paper:
 > **MMS-LLaMA: Efficient LLM-based Audio-Visual Speech Recognition with Minimal Multimodal Speech Tokens**<be>
 ><br>
 > Authors: Jeong Hun Yeo*, Hyeongseop Rha*, Se Jin Park, Yong Man Ro (*Equal contribution)<br>
-> **Paper Link**: [Soon Available]
+> **Paper Link**: [http://arxiv.org/abs/2503.11315](http://arxiv.org/abs/2503.11315)
 
 ## Introduction
 MMS-LLaMA is an efficient multimodal speech LLM framework, for AVSR that minimizes the length of multimodal speech tokens while preserving their linguistic content.
