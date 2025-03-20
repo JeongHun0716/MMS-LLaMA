@@ -148,8 +148,20 @@ wget -O ckpt.pt "https://www.dropbox.com/scl/fi/ou28xe2k9ampxsf4ihoft/checkpoint
 | [ckpt.pt](https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=1) |       LRS3       |       433       |
 
 ```bash
-# 1759h model
 wget -O ckpt.pt "https://www.dropbox.com/scl/fi/rc6jmbzdvj8afn84z47qt/checkpoint.pt?rlkey=aoa0ifkdydgm9gjmt2ljwpgrc&st=we9qoqtb&dl=1"
+```
+
+## Citation
+If you find this work useful in your research, please cite the paper:
+
+
+```bibtex
+@article{yeo2025mms,
+  title={MMS-LLaMA: Efficient LLM-based Audio-Visual Speech Recognition with Minimal Multimodal Speech Tokens},
+  author={Yeo, Jeong Hun and Rha, Hyeongseop and Park, Se Jin and Ro, Yong Man},
+  journal={arXiv preprint arXiv:2503.11315},
+  year={2025}
+}
 ```
 
 
