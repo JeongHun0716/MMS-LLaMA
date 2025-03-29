@@ -285,7 +285,8 @@ class mms_llama_dataset(FairseqDataset):
             if self.subset == 'train' and np.random.rand() < self.noise_prob:
                 wav_data = self.add_noise(wav_data)
             elif self.subset =='test' and self.snr_target is not None:
-                wav_data = self.add_noise(wav_data)
+                if self.noise_prob != 0:
+                    wav_data = self.add_noise(wav_data)
                 
             len_audio_feats = math.floor(len(wav_data)/16000*100)
             audio_feats = self.whisper_processor(wav_data, sampling_rate=sample_rate, return_tensors="pt").input_features #[:,:,:len_audio_feats]
