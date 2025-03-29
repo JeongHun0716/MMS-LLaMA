@@ -131,7 +131,7 @@ You can download the pre-trained models using wget with the following command:
 
 ```bash
 # 433h model
-wget -O ckpt.pt "https://https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=1"
+wget -O ckpt.pt "https://www.dropbox.com/scl/fi/uiaxa2lgjze4mt7tdi5wu/checkpoint_best.pt?rlkey=o62sc6ann8xm3gpkyj4yk3rwe&st=s5q385op&dl=1"
 ```
 
 ```bash
